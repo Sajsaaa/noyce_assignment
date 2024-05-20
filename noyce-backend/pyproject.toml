@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "noyce"
+version = "0.1.0"
+description = ""
+authors = ["shahiryar khalid <shahiryar.khalid123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = "^0.29.0"
+fastapi = "^0.111.0"
+sqlalchemy = "^2.0.30"
+psycopg2-binary = "^2.9.9"
+alembic = "^1.13.1"
+sqlalchemy-utils = "^0.41.2"
+fastapi-cors = "^0.0.6"
+black = "^24.4.2"
+fastapi-socketio = "^0.0.10"
+python-socketio = "^5.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
